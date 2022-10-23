@@ -1,0 +1,68 @@
+html {
+    background-image: url(./Wallpaper.jpg);
+    background-size: 100%;
+}
+
+form[class=Logo]{
+    background-image: url(./Logo_Sucy.JPG);
+    background-size: 100%;
+    background-color: greenyellow;
+    width: 150px;
+    height: 150px;  
+}
+
+
+form[class=bvn]{
+    background-color: transparent;
+    height: 110px;
+    width: 650px;
+    margin-left: 450px;
+    background-image: url(./Bvn.gif);
+    background-size: 100%;
+    margin-top: 0px;
+}
+form[class=Titre]{
+    background-color: aliceblue;
+    height: 150px;
+    width: 760px;
+    margin-left: 250px;
+    background: rgba(265, 255, 255, 0.3);
+        
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+h1[class=title]{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
+    margin-left: 0px;
+}
+
+
+
+form[class=actus]{
+    background-color: aliceblue;
+    height: 600px;
+    width: 760px;
+    margin-left: 405px;
+    background: rgba(265, 255, 255, 0.3);
+}
+
+h1[class=actus]{
+    margin-top: 15px;
+    font-size: 50px;
+    color: black;
+    text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
+    margin-left: 50px;
+}
+
+form{
+    display: inline-block;
+    vertical-align: top;
+}
